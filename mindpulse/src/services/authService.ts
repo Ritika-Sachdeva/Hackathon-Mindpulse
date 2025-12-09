@@ -1,6 +1,11 @@
 import type { User } from '../types';
 
-const BASE_URL = (import.meta as any).env.VITE_API_URL || 'http://localhost:3001';
+const getApiUrl = () => {
+  // Safe access using optional chaining
+  return import.meta.env?.VITE_API_URL || 'http://localhost:3001';
+};
+
+const BASE_URL = getApiUrl();
 const API_URL = `${BASE_URL}/api`;
 const STORAGE_KEY_SESSION = 'mindpulse_session';
 

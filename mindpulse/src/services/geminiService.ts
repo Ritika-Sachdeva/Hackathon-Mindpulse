@@ -1,6 +1,10 @@
 import type { MoodEntry, GroupAnalysis } from "../types";
 
-const API_URL = (import.meta as any).env.VITE_API_URL || 'http://localhost:3001';
+const getApiUrl = () => {
+  return import.meta.env?.VITE_API_URL || 'http://localhost:3001';
+};
+
+const API_URL = getApiUrl();
 const API_BASE_URL = `${API_URL}/api/ai`;
 
 /**

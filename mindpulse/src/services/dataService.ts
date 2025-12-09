@@ -1,6 +1,10 @@
 import type { MoodEntry } from '../types';
 
-const BASE_URL = (import.meta as any).env.VITE_API_URL || 'http://localhost:3001';
+const getApiUrl = () => {
+  return import.meta.env?.VITE_API_URL || 'http://localhost:3001';
+};
+
+const BASE_URL = getApiUrl();
 const API_URL = `${BASE_URL}/api`;
 
 export const fetchEntries = async (): Promise<MoodEntry[]> => {
