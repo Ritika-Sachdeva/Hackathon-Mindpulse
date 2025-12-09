@@ -41,13 +41,6 @@ const AIChat: React.FC = () => {
     setIsTyping(true);
 
     try {
-      // Pass the updated history including the new user message
-      // Note: geminiService will handle filtering out the initial 'model' welcome message
-      // to ensure the API call is valid.
-      const historyToAnalyze = [...messages, userMsg].map(m => ({
-        role: m.role,
-        parts: [{ text: m.text }]
-      }));
 
       // We don't send the userMsg *text* as the second arg if we include it in history. 
       // The service expects history (context) and the NEW message.

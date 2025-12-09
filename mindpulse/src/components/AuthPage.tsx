@@ -29,7 +29,7 @@ const AuthPage: React.FC<AuthPageProps> = ({ onLogin }) => {
       if (isLogin) {
         user = await apiLogin(email, password);
       } else {
-        user = await apiSignup(name, email, role, groupCode);
+        user = await apiSignup(name, email, role, groupCode,password);
       }
       onLogin(user);
     } catch (err: any) {

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Mood } from '../types';
 import type { MoodEntry } from '../types';
 import { analyzeMoodEntry } from '../services/geminiService';
-import { Smile, Meh, Frown, Sun, Moon, Battery, BatteryCharging, AlertCircle, CheckCircle, Loader2, WifiOff } from 'lucide-react';
+import { Smile, Meh, Frown, Sun, Moon, AlertCircle, CheckCircle, Loader2, WifiOff } from 'lucide-react';
 
 interface DailyCheckInProps {
   userId: string;

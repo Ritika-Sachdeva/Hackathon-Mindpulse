@@ -1,11 +1,11 @@
-export enum Mood {
-  Great = 'Great',
-  Good = 'Good',
-  Neutral = 'Neutral',
-  Bad = 'Bad',
-  Awful = 'Awful'
-}
-
+export const Mood = {
+  Great: 'Great',
+  Good: 'Good',
+  Neutral: 'Neutral',
+  Bad: 'Bad',
+  Awful: 'Awful'
+} as const;
+export type Mood = (typeof Mood)[keyof typeof Mood];
 export interface MoodEntry {
   id: string;
   userId: string;
