@@ -1,0 +1,56 @@
+[
+  {
+    "id": "u1",
+    "name": "Alex Johnson",
+    "email": "alex@example.com",
+    "password": "password123",
+    "role": "member",
+    "groupId": "MARKETING-TEAM",
+    "avatar": "https://picsum.photos/id/1005/200/200"
+  },
+  {
+    "id": "u2",
+    "name": "Sam Rivera",
+    "email": "sam@example.com",
+    "password": "password123",
+    "role": "member",
+    "groupId": "MARKETING-TEAM",
+    "avatar": "https://picsum.photos/id/1011/200/200"
+  },
+  {
+    "id": "u3",
+    "name": "Jordan Lee",
+    "email": "jordan@example.com",
+    "password": "password123",
+    "role": "member",
+    "groupId": "MARKETING-TEAM",
+    "avatar": "https://picsum.photos/id/1027/200/200"
+  },
+  {
+    "id": "u4",
+    "name": "Sarah Admin",
+    "email": "admin@example.com",
+    "password": "password123",
+    "role": "admin",
+    "groupId": "MARKETING-TEAM",
+    "avatar": "https://picsum.photos/id/106/200/200"
+  },
+  {
+    "id": "1764676360318",
+    "name": "Ritika",
+    "email": "ritika@gmail.com",
+    "password": "password123",
+    "role": "admin",
+    "groupId": "BASE",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ritika"
+  },
+  {
+    "id": "1764676437705",
+    "name": "Ritika Sachdeva",
+    "email": "ritz@gmail.com",
+    "password": "password123",
+    "role": "member",
+    "groupId": "BASE",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ritika Sachdeva"
+  }
+]

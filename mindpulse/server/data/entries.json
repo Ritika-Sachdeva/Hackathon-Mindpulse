@@ -1,0 +1,255 @@
+[
+  {
+    "id": "1",
+    "userId": "u1",
+    "timestamp": "2023-10-20T08:00:00.000Z",
+    "mood": "Good",
+    "stressLevel": 3,
+    "energyLevel": 8,
+    "sleepQuality": 7,
+    "note": "Good start to the week.",
+    "sentimentScore": 0.8
+  },
+  {
+    "id": "2",
+    "userId": "u1",
+    "timestamp": "2023-10-21T08:00:00.000Z",
+    "mood": "Neutral",
+    "stressLevel": 5,
+    "energyLevel": 6,
+    "sleepQuality": 6,
+    "note": "Average day.",
+    "sentimentScore": 0.1
+  },
+  {
+    "id": "3",
+    "userId": "u1",
+    "timestamp": "2023-10-22T08:00:00.000Z",
+    "mood": "Bad",
+    "stressLevel": 8,
+    "energyLevel": 4,
+    "sleepQuality": 4,
+    "note": "Deadline approaching, feeling tight.",
+    "sentimentScore": -0.5,
+    "burnoutRisk": true
+  },
+  {
+    "id": "4",
+    "userId": "u1",
+    "timestamp": "2023-10-23T08:00:00.000Z",
+    "mood": "Neutral",
+    "stressLevel": 6,
+    "energyLevel": 5,
+    "sleepQuality": 5,
+    "note": "Recovering a bit.",
+    "sentimentScore": 0.2
+  },
+  {
+    "id": "5",
+    "userId": "u1",
+    "timestamp": "2023-10-24T08:00:00.000Z",
+    "mood": "Good",
+    "stressLevel": 4,
+    "energyLevel": 7,
+    "sleepQuality": 8,
+    "note": "Project finished!",
+    "sentimentScore": 0.9
+  },
+  {
+    "id": "6",
+    "userId": "u1",
+    "timestamp": "2023-10-25T08:00:00.000Z",
+    "mood": "Great",
+    "stressLevel": 2,
+    "energyLevel": 9,
+    "sleepQuality": 8,
+    "note": "Relaxing weekend.",
+    "sentimentScore": 0.95
+  },
+  {
+    "id": "7",
+    "userId": "u2",
+    "timestamp": "2023-10-23T08:00:00.000Z",
+    "mood": "Bad",
+    "stressLevel": 9,
+    "energyLevel": 3,
+    "sleepQuality": 3,
+    "note": "Too much work.",
+    "sentimentScore": -0.8,
+    "burnoutRisk": true
+  },
+  {
+    "id": "8",
+    "userId": "u2",
+    "timestamp": "2023-10-24T08:00:00.000Z",
+    "mood": "Bad",
+    "stressLevel": 8,
+    "energyLevel": 4,
+    "sleepQuality": 4,
+    "note": "Can't sleep well.",
+    "sentimentScore": -0.6,
+    "burnoutRisk": true
+  },
+  {
+    "id": "9",
+    "userId": "u2",
+    "timestamp": "2023-10-25T08:00:00.000Z",
+    "mood": "Awful",
+    "stressLevel": 9,
+    "energyLevel": 2,
+    "sleepQuality": 3,
+    "note": "Feeling overwhelmed completely.",
+    "sentimentScore": -0.9,
+    "burnoutRisk": true
+  },
+  {
+    "id": "10",
+    "userId": "u3",
+    "timestamp": "2023-10-24T08:00:00.000Z",
+    "mood": "Good",
+    "stressLevel": 3,
+    "energyLevel": 7,
+    "sleepQuality": 7,
+    "note": "All good.",
+    "sentimentScore": 0.6
+  },
+  {
+    "id": "11",
+    "userId": "u3",
+    "timestamp": "2023-10-25T08:00:00.000Z",
+    "mood": "Good",
+    "stressLevel": 4,
+    "energyLevel": 7,
+    "sleepQuality": 6,
+    "note": "Busy but fine.",
+    "sentimentScore": 0.5
+  },
+  {
+    "id": "1764676445982",
+    "userId": "1764676437705",
+    "timestamp": "2025-12-02T11:54:05.982Z",
+    "mood": "Good",
+    "stressLevel": 5,
+    "energyLevel": 5,
+    "sleepQuality": 7,
+    "note": "",
+    "sentimentScore": 0,
+    "burnoutRisk": false,
+    "aiIntervention": "Take a moment to breathe deeply.",
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "id": "1764676454477",
+    "userId": "1764676437705",
+    "timestamp": "2025-12-02T11:54:14.477Z",
+    "mood": "Great",
+    "stressLevel": 5,
+    "energyLevel": 5,
+    "sleepQuality": 7,
+    "note": "",
+    "sentimentScore": 0,
+    "burnoutRisk": false,
+    "aiIntervention": "Take a moment to breathe deeply.",
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "id": "1764676494264",
+    "userId": "1764676437705",
+    "timestamp": "2025-12-02T11:54:54.264Z",
+    "mood": "Awful",
+    "stressLevel": 5,
+    "energyLevel": 5,
+    "sleepQuality": 7,
+    "note": "",
+    "sentimentScore": 0,
+    "burnoutRisk": false,
+    "aiIntervention": "Take a moment to breathe deeply.",
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "id": "1764676533984",
+    "userId": "1764676360318",
+    "timestamp": "2025-12-02T11:55:33.984Z",
+    "mood": "Good",
+    "stressLevel": 5,
+    "energyLevel": 5,
+    "sleepQuality": 7,
+    "note": "",
+    "sentimentScore": 0,
+    "burnoutRisk": false,
+    "aiIntervention": "Take a moment to breathe deeply.",
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "id": "1764676607009",
+    "userId": "1764676360318",
+    "timestamp": "2025-12-02T11:56:47.009Z",
+    "mood": "Bad",
+    "stressLevel": 8,
+    "energyLevel": 3,
+    "sleepQuality": 5,
+    "note": "Too depressed because of a task as i cannot get output for my task from past 3 days",
+    "sentimentScore": 0,
+    "burnoutRisk": true,
+    "aiIntervention": "Take a moment to breathe deeply.",
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "id": "1764681029468",
+    "userId": "1764676360318",
+    "timestamp": "2025-12-02T13:10:29.468Z",
+    "mood": "Good",
+    "stressLevel": 5,
+    "energyLevel": 5,
+    "sleepQuality": 7,
+    "note": "",
+    "sentimentScore": 0,
+    "burnoutRisk": false,
+    "aiIntervention": "Take a moment to breathe deeply.",
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "id": "1764687389011",
+    "userId": "1764676437705",
+    "timestamp": "2025-12-02T14:56:29.011Z",
+    "mood": "Neutral",
+    "stressLevel": 2,
+    "energyLevel": 5,
+    "sleepQuality": 7,
+    "note": "",
+    "sentimentScore": 0,
+    "burnoutRisk": false,
+    "aiIntervention": "Take a moment to breathe deeply.",
+    "tags": [
+      "General"
+    ]
+  },
+  {
+    "id": "1764768787604",
+    "userId": "1764676437705",
+    "timestamp": "2025-12-03T13:33:07.604Z",
+    "mood": "Bad",
+    "stressLevel": 1,
+    "energyLevel": 5,
+    "sleepQuality": 1,
+    "note": "Depressed",
+    "sentimentScore": 0,
+    "burnoutRisk": false,
+    "aiIntervention": "Take a moment to breathe deeply.",
+    "tags": [
+      "General"
+    ]
+  }
+]
